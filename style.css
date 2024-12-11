@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background-color: #3c3a3a;
+}
+nav{
+    display: flex;
+    position: relative;
+    height: 120px;
+    width: 700px;
+    top: 10px;
+    left: 25vw;
+}
+.logo img
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.side
+{
+    position: relative;
+    color: white;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    top: 15px;
+}
+#unnati
+{
+    letter-spacing: 5px;
+    font-weight: 800;
+}
+.navicon
+{
+    position: relative;
+    left: 130px;
+    width: 100px;
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+.navicon i{
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    position: relative;
+    top: 20px;
+    font-size: 2vw;
+}
+
+.container1
+{
+    background-color: rgb(230, 221, 221);
+    width: 47vw;
+    position: relative;
+    left: 350px;
+    height: 300px;
+    border-radius: 20px;
+}
+h1{
+    padding: 10px;
+}
+h1::before{
+    content: ".";
+    background-color: orange;
+    height: 5px;
+    width: 5px;
+    border-radius: 10px;
+    margin: 5px;
+    color: orange;
+}
+.mid
+{
+    display: flex;
+    background-color: rgb(230, 221, 221);
+}
+.mid img{
+    max-width: 100px;
+    border-radius: 50px;
+    margin: 10px;
+}
+.midlower
+{
+    display: flex;
+    background-color: rgb(230, 221, 221);
+    position: relative;
+    height: 50px;
+    top: 70px;
+    width: 500px;
+    justify-content: space-between;
+}
+.box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.name
+{
+    background-color: rgb(230, 221, 221);
+    height: 15px;
+    width: 380px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    top: 20px;
+}
+
+.lowerlower
+{
+    background-color: rgb(230, 221, 221);
+    display: flex;
+    position: relative;
+    top: 30px;
+    height: 90px;
+    align-items: center;
+    justify-content: space-around;
+    width: 45vw;
+    left: 10px;
+    border-radius: 20px;
+}
+.boxx
+{
+    background-color: black;
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.per
+{
+    position: relative;
+    left: 30px;
+}
+.wor
+{
+    position: relative;
+    left: 30px;
+}
+.lowerlower i
+{
+    font-size: 30px;
+}
+.write
+{
+    position: relative;
+    left: -15px;
+}
+.container2
+{
+    background-color: rgb(230, 221, 221);
+    width: 47vw;
+    position: relative;
+    left: 350px;
+    top: 15px;
+    height: 300px;
+    border-radius: 20px;    
+}
+.last
+{
+    display: flex;
+    background-color: none;
+    position: relative;
+    height: 30vh;
+    left: 0px;
+    justify-content: space-evenly;
+}
+.boxq{
+    background-color: black;
+    height: 240px;
+    width: 200px;
+    border-radius: 25px;
+    color: orange;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.word
+{
+    position: relative;
+    top: 10px;
+}
+.container2 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: black;
+    object-fit: cover;
+}
+
+@media (max-width:800px) {
+
+    .navicon i{
+        font-size: 5vw;
+    }
+    #font
+    {
+        font-size: large;
+        font-weight: 800;
+    }
+    nav{
+        width: 600px;
+    }
+    .container1{
+        width: 700px;
+        position: relative;
+        left: 90px;
+    }
+    .lowerlower
+    {
+        position: relative;
+        background-color: none;
+        width: 650px;
+    }
+    .container2
+    {
+        width: 700px;
+        position: relative;
+        left: 90px;
+    }
+    .last
+    {
+        background-color: none;
+        width: 700px;
+        left: 0px;
+    }
+   
+
+}
